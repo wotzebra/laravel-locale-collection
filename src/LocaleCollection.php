@@ -10,7 +10,7 @@ use Illuminate\Support\Str;
  * @template TKey of array-key
  * @template TLocale of Locale
  *
- * @extends \Illuminate\Support\Collection<TKey, TLocale>
+ * @extends Collection<TKey, TLocale>
  */
 class LocaleCollection extends Collection
 {
