@@ -18,13 +18,13 @@ jobs:
         stability: [prefer-stable]
         include:
           - php: 8.3
-            pest: ^4.0
+            pest: 4.*
           - php: 8.4
-            pest: ^4.0
+            pest: 4.*
           - php: 8.5
-            pest: ^4.0
+            pest: 4.*
           - php: 8.6
-            pest: ^5.0
+            pest: 5.*
         exclude:
           # Pest 4's PHPUnit and ParaTest do not support PHP 8.6; Pest 5 needs Laravel 13.
           - laravel: 12.*
